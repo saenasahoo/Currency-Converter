@@ -1,0 +1,76 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url("img/currency-background.png");
+    background-size: 500px;
+    background-repeat:repeat ;
+    min-height: 100vh;
+    
+}
+.container{
+    background-color: white;
+    border-radius: 1rem;
+    padding: 2rem;
+    min-height: 45vh;
+    width:50vh;
+    
+}
+form select,input,button{
+    outline: none;
+    border: none;
+    width:100%;
+    border-radius: 0.75rem;
+}
+form input{
+    border: 1px solid lightgray;
+    height: 3rem;
+    font-size: 1rem;
+    padding-left: 0.5rem;
+
+}
+.dropdown{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-between;
+    margin: 2rem 0rem 2rem 0rem;
+}
+.select-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 0.75rem;
+    border: 1px solid lightgray;
+ 
+  
+}
+.select-container img{
+  max-width: 2rem;
+  margin: 0.5rem;
+}
+.dropdown i{
+    margin-top: 1.55rem;
+    font-size: smaller;
+}
+.msg{
+    margin: 2rem 0 2rem 0 ;
+}
+form button{
+    height: 3rem;
+    font-size: 1rem;
+    background-color: deeppink;
+    color: white;
+    cursor: pointer;
+}
+.amount p{
+    margin: 1rem 0 1rem 0;
+    font-size: 1.25rem;
+}
+.dropdown p{
+    margin: 0.25rem 0 0.25rem 0;
+}
